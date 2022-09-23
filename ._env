@@ -1,0 +1,5 @@
+APP_NAME={APP_NAME}
+PORT={APP_PORT}
+LOG_DIR={LOG_DIR}
+NODE_ENV=development
+ACCESS_TOKEN_SECRET={token_value}
