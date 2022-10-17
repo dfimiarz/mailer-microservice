@@ -22,12 +22,12 @@ router.post('/', async (req, res, next) => {
 
     res.send("Will send email");
 
-    // const job = req.body.job;
-    // const payload = req.body.payload;
+    const job = req.body.job;
+    const payload = req.body.payload;
 
-    // if (!job || !payload) {
-    //     return next(new Error("Invalid arguments"));
-    // }
+    if (!job || !payload) {
+        return next(new Error("Invalid arguments"));
+    }
 
     // controller.sendEmail(job, payload)
     //     .then(result => {
